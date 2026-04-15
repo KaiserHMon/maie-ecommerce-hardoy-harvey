@@ -1,5 +1,0 @@
-.card-img-top {
-    width: 100%;
-    height: 250px; /* Altura fija para todas las imagenes */
-    object-fit: cover; /* Ajusta la imagen al contenedor sin deformarla */
-}

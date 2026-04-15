@@ -21,3 +21,7 @@ Route::get('/comercializacion', function () {
 Route::get('/catalogo', function () {
     return view('catalogo');
 });
+
+Route::get('/quienes-somos', function() {
+    return view('quienes-somos');
+});
