@@ -1,37 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Comercialización - Maie Dulces Artesanales</title>
+@extends('layout')
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/variables.css">
-    <link rel="stylesheet" href="/css/estilos.css">
-</head>
+@section('contenido')
 
-<body>
+<section class="section-hero-comercio">
 <div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <span class="fs-4">Maie - Dulces Artesanales</span>
-        </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a href="/catalogo" class="nav-link">Catalogo</a>
-            </li>
-            <li class="nav-item">
-                <a href="/comercializacion" class="nav-link">Comercializacion</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Quienes Somos</a>
-            </li>
-        </ul>
-    </header>
+<div class="row align-items-center g-5 py-5">
+    <div class="col-lg-12 text-center">
+        <h1 class="display-3 fw-bold text-body-emphasis lh-1 mb-3">El arte de la presencia</h1>
+        <p class="lead">Conoce dónde encontrarnos, nuestros métodos de pago y los certificados que respaldan nuestro compromiso con la calidad.</p>
+    </div>
 </div>
+</div>
+</section>
 
-<!-- Donde Encontrarnos -->
-<div class="container py-5">
+<section class="section-donde-encontrarnos py-5">
+<div class="container">
     <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-4 text-center">Dónde Encontrarnos</h1>
     <p class="text-center mb-5 lead">Nuestros productos están disponibles en los mejores locales de la ciudad</p>
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
@@ -73,92 +56,88 @@
         </div>
     </div>
 </div>
+</section>
 
-<!-- Métodos de Pago -->
-<div class="container py-5 border-top">
-    <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-4 text-center">Métodos de Pago</h1>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
-        <div class="col">
-            <div class="card text-center h-100">
-                <div class="card-body">
-                    <i class="bi bi-credit-card" style="font-size: 3rem; color: #0d6efd;"></i>
-                    <h5 class="card-title mt-3">Tarjeta de Crédito</h5>
-                    <p class="card-text small">Visa, Mastercard y American Express</p>
-                </div>
-            </div>
+<section class="section-metodos-pago py-5 border-top">
+<div class="container">
+    <div class="row align-items-start g-5">
+        <div class="col-lg-3">
+            <h1 class="display-6 fw-bold text-body-emphasis lh-1">Métodos de Pago</h1>
         </div>
-        <div class="col">
-            <div class="card text-center h-100">
-                <div class="card-body">
-                    <i class="bi bi-bank" style="font-size: 3rem; color: #0d6efd;"></i>
-                    <h5 class="card-title mt-3">Transferencia Bancaria</h5>
-                    <p class="card-text small">Transferencia directa a nuestra cuenta</p>
+        <div class="col-lg-9">
+            <div class="row row-cols-2 row-cols-md-4 g-3 justify-content-center">
+                <div class="col">
+                    <div class="card card-metodos-pago text-center">
+                        <div class="card-body py-3">
+                            <i class="bi bi-credit-card" style="font-size: 2rem; color: #c4956a;"></i>
+                            <p class="card-text small mt-2">Tarjeta</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card text-center h-100">
-                <div class="card-body">
-                    <i class="bi bi-cash-coin" style="font-size: 3rem; color: #0d6efd;"></i>
-                    <h5 class="card-title mt-3">Efectivo</h5>
-                    <p class="card-text small">Pago en el momento de la compra</p>
+                <div class="col">
+                    <div class="card card-metodos-pago text-center">
+                        <div class="card-body py-3">
+                            <i class="bi bi-bank" style="font-size: 2rem; color: #c4956a;"></i>
+                            <p class="card-text small mt-2">Transferencia</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card text-center h-100">
-                <div class="card-body">
-                    <i class="bi bi-wallet2" style="font-size: 3rem; color: #0d6efd;"></i>
-                    <h5 class="card-title mt-3">Billetera Virtual</h5>
-                    <p class="card-text small">Mercado Pago y otras billeteras</p>
+                <div class="col">
+                    <div class="card card-metodos-pago text-center">
+                        <div class="card-body py-3">
+                            <i class="bi bi-cash-coin" style="font-size: 2rem; color: #c4956a;"></i>
+                            <p class="card-text small mt-2">Efectivo</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Certificados y Garantías -->
-<div class="container py-5 border-top">
-    <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-4 text-center">Certificados y Garantías</h1>
-    <div class="row">
-        <div class="col-lg-8 mx-auto">
-            <div class="card">
-                <div class="card-body">
-                    <h5 class="card-title mb-3">Nuestros Compromiso</h5>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <strong>Certificación Sanitaria:</strong> Nuestros productos cumplen con todos los estándares de higiene y seguridad alimentaria requeridos por las autoridades sanitarias.
-                        </li>
-                        <li class="list-group-item">
-                            <strong>Garantía de Calidad:</strong> Todos nuestros productos son elaborados con ingredientes premium y se garantiza su frescura.
-                        </li>
-                        <li class="list-group-item">
-                            <strong>Productos Frescos:</strong> Nuestros dulces se elaboran bajo demanda para garantizar máxima frescura y calidad.
-                        </li>
-                        <li class="list-group-item">
-                            <strong>Ingredientes Naturales:</strong> Utilizamos ingredientes naturales sin conservantes artificiales innecesarios.
-                        </li>
-                    </ul>
+                <div class="col">
+                    <div class="card card-metodos-pago text-center">
+                        <div class="card-body py-3">
+                            <i class="bi bi-wallet2" style="font-size: 2rem; color: #c4956a;"></i>
+                            <p class="card-text small mt-2">Billetera</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</section>
 
-<!-- Contacto -->
-<div class="container py-5 border-top">
-    <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-            <h2 class="mb-4">¿Tienes Preguntas?</h2>
-            <p class="lead mb-4">No dudes en contactarnos para más información sobre nuestros productos, envíos o compras mayoristas.</p>
-            <a href="/contacto" class="btn btn-primary btn-lg rounded px-5 py-3">Ir a Contacto</a>
+<section class="section-certificados py-5 border-top">
+<div class="container">
+    <p class="text-center text-muted mb-2 small">Nuestro compromiso</p>
+    <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-5 text-center">Certificados y Garantías</h1>
+    <div class="row row-cols-1 row-cols-md-3 g-5 justify-content-center">
+        <div class="col">
+            <div class="text-center">
+                <div class="circle-svg-container">
+                    <i class="bi bi-check-circle" style="font-size: 3.5rem; color: #28a745;"></i>
+                </div>
+                <h5 class="mt-4">Certificado de Calidad</h5>
+                <p class="small text-muted">Estándares más altos</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="text-center">
+                <div class="circle-svg-container">
+                    <i class="bi bi-shield-check" style="font-size: 3.5rem; color: #28a745;"></i>
+                </div>
+                <h5 class="mt-4">Garantía al Cliente</h5>
+                <p class="small text-muted">Devolución garantizada</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="text-center">
+                <div class="circle-svg-container">
+                    <i class="bi bi-heart-fill" style="font-size: 3.5rem; color: #28a745;"></i>
+                </div>
+                <h5 class="mt-4">Ingredientes Naturales</h5>
+                <p class="small text-muted">100% naturales</p>
+            </div>
         </div>
     </div>
 </div>
+</section>
 
-    @include('templates.footer')
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>\n\n</body>
-
-</body>
-</html>
+@endsection

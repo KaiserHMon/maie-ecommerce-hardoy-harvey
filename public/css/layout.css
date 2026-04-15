@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcefd2;
+    margin: 40px;
+    line-height: 1.6;
+}
+
+h1 {
+    color: #c4956a;
+}
+
+p {
+    line-height: 1.6;
+}
+
+/* ========================================
+   NAVBAR
+   ======================================== */
+
+.navbar-wrapper {
+    position: relative;
+    margin-top: -40px;
+    margin-left: -40px;
+    margin-right: -40px;
+}
+
+.navbar-wave {
+    line-height: 0;
+}
+
+.navbar-wave svg {
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+.navbar,
+.navbar a {
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #f5e6d0;
+}
+
+.navbar a {
+    color: #f5e6d0 !important;
+}
+
+.nav-links a {
+    font-family: 'Lato', sans-serif;
+    margin-left: 33px;
+    margin-right: 50px;
+    font-size: large;
+    color: #c4956a !important;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #f5e6d0 !important;
+}
+
+/* ========================================
+   SECCIONES
+   ======================================== */
+
+.section-hero {
+    padding: 2rem 0;
+}
+
+.section-hero-comercio {
+    padding: 3rem 0;
+}
+
+.section-products {
+    background-color: #622b16;
+    padding: 2rem 0;
+    width: 100%;
+}
+
+.section-products .container {
+    background-color: #622b16;
+}
+
+/* ========================================
+   TARJETAS MÉTODOS DE PAGO
+   ======================================== */
+
+.card-metodos-pago {
+    border: 1px solid #e0e0e0;
+    border-radius: 15px;
+    background: white;
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.card-metodos-pago:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-3px);
+}
+
+/* ========================================
+   SVG CIRCULAR
+   ======================================== */
+
+.circle-svg-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    border: 3px solid #c4956a;
+}
+
+/* ========================================
+   SECCIÓN MÉTODOS DE PAGO
+   ======================================== */
+
+@media (max-width: 991px) {
+    .section-metodos-pago .row {
+        flex-direction: column;
+    }
+
+    .section-metodos-pago .col-lg-3 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .section-metodos-pago .col-lg-9 {
+        width: 100%;
+    }
+}
+
+/* ========================================
+   CARDS Y COMPONENTES
+   ======================================== */
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.section-products a {
+    background-color: #c4956a;
+    border-color: #c4956a;
+    transition: all 0.3s ease;
+}
+
+.section-products a:hover {
+    color: black;
+    background-color: #c4956a;
+    border-color: #c4956a;
+}
+
+/* ========================================
+   UTILIDADES
+   ======================================== */
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+}

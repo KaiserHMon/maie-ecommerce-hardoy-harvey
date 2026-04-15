@@ -13,17 +13,19 @@
 </head>
 <body>
 
+<header>
+<div class=container>
 <div class="navbar-wrapper">
   <nav class="navbar" style="background-color: #622b16;">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/resources/views/principal.blade.php" style="position: absolute; margin-top: 30px;">
-        <img src="/public/images/LOGO_MAIE_navbar.png" alt="Logo" width="120" height="60" class="d-inline-block">
+      <a class="navbar-brand" href="/" style="position: absolute; margin-top: 30px;">
+        <img src="/images/logo/LOGO_MAIE_navbar.png" alt="Logo" width="120" height="60" class="d-inline-block">
       </a>
 
       <div class="navbar-nav ml-auto d-flex flex-row nav-links">
-        <a href="" class="nav-link">Catalogo</a>
-        <a href="" class="nav-link">Comercialización</a>
-        <a href="" class="nav-link">Quienes Somos</a>
+        <a href="/catalogo" class="nav-link">Catalogo</a>
+        <a href="/comercializacion" class="nav-link">Comercialización</a>
+        <a href="/quienes-somos" class="nav-link">Quienes Somos</a>
       </div>
     </div>
   </nav>
@@ -33,6 +35,8 @@
     </svg>
   </div>
 </div>
+</div>
+</header>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
