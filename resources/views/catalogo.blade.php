@@ -6,29 +6,12 @@
     <title>Catálogo - Maie Dulces Artesanales</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/variables.css">
     <link rel="stylesheet" href="/css/estilos.css">
 </head>
 
 <body>
-<div class="container">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <span class="fs-4">Maie - Dulces Artesanales</span>
-        </a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a href="/catalogo" class="nav-link">Catalogo</a>
-            </li>
-            <li class="nav-item">
-                <a href="/comercializacion" class="nav-link">Comercializacion</a>
-            </li>
-            <li class="nav-item">
-                <a href="#" class="nav-link">Quienes Somos</a>
-            </li>
-        </ul>
-    </header>
-</div>
+
+@include('templates.navbar')
 
 <div class="container py-5">
     <h1 class="display-5 fw-bold text-body-emphasis mb-5 text-center">Catálogo</h1>
