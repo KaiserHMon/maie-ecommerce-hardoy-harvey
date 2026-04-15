@@ -60,9 +60,9 @@
 
 <section class="section-metodos-pago py-5 border-top">
 <div class="container">
-    <div class="row align-items-start g-5">
-        <div class="col-lg-3">
-            <h1 class="display-6 fw-bold text-body-emphasis lh-1">Métodos de Pago</h1>
+    <div class="row align-items-center g-5">
+        <div class="col-lg-3 text-center text-lg-start">
+            <h1 class="display-6 fw-bold text-body-emphasis lh-1 mb-4 mb-lg-0">Métodos de Pago</h1>
         </div>
         <div class="col-lg-9">
             <div class="row row-cols-2 row-cols-md-4 g-3 justify-content-center">

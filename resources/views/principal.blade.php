@@ -58,7 +58,7 @@
   </div>
 </div>
 <div class="text-center mt-3">
-  <a href="/catalogo" class="btn btn-primary rounded px-4 py-2">Catalogo</a>
+  <a href="/catalogo" class="btn btn-custom rounded px-4 py-2">Catálogo</a>
 </div>
 </div>
 </section>

@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo - Maie Dulces Artesanales</title>
+@extends('layout')
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/estilos.css">
-</head>
-
-<body>
-
-@include('templates.navbar')
-
+@section('contenido')
 <div class="container py-5">
     <h1 class="display-5 fw-bold text-body-emphasis mb-5 text-center">Catálogo</h1>
 
@@ -21,10 +9,10 @@
         <!-- Producto 1 -->
         <div class="col">
             <div class="card h-100">
-                <img src="..." class="card-img-top" alt="Producto">
+                <img src="/images/productos/alfajor-negro-relleno-de-dulce-de-leche.jpg" class="card-img-top" alt="Alfajores">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Producto</h5>
-                    <p class="card-text">Descripción del producto</p>
+                    <h5 class="card-title">Alfajores</h5>
+                    <p class="card-text">Deliciosos alfajores artesanales con distintos rellenos. Una golosina tradicional e irresistible.</p>
                 </div>
             </div>
         </div>
@@ -32,10 +20,10 @@
         <!-- Producto 2 -->
         <div class="col">
             <div class="card h-100">
-                <img src="..." class="card-img-top" alt="Producto">
+                <img src="/images/productos/receta-estilo-crumbl-cookies-1753959596.jpg" class="card-img-top" alt="Crumbl Cookies">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Producto</h5>
-                    <p class="card-text">Descripción del producto</p>
+                    <h5 class="card-title">Crumbl Cookies</h5>
+                    <p class="card-text">Galletas grandes y blandas con una textura crujiente en los bordes.</p>
                 </div>
             </div>
         </div>
@@ -43,10 +31,10 @@
         <!-- Producto 3 -->
         <div class="col">
             <div class="card h-100">
-                <img src="..." class="card-img-top" alt="Producto">
+                <img src="/images/productos/bigstock-Set-Of-Different-Multi-colored-276330859-e1581253559904.jpg" class="card-img-top" alt="Macarrones">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Producto</h5>
-                    <p class="card-text">Descripción del producto</p>
+                    <h5 class="card-title">Macarrón</h5>
+                    <p class="card-text">Elegantes macarrones artesanales con sabores variados y auténticos.</p>
                 </div>
             </div>
         </div>
@@ -54,18 +42,13 @@
         <!-- Producto 4 -->
         <div class="col">
             <div class="card h-100">
-                <img src="..." class="card-img-top" alt="Producto">
+                <img src="/images/productos/cono.jpg" class="card-img-top" alt="Conitos">
                 <div class="card-body">
-                    <h5 class="card-title">Nombre del Producto</h5>
-                    <p class="card-text">Descripción del producto</p>
+                    <h5 class="card-title">Conitos</h5>
+                    <p class="card-text">Conos crujientes con rellenos irresistibles de dulce de leche.</p>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
-    @include('templates.footer')
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-</html>
+@endsection

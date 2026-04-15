@@ -1,16 +1,20 @@
+/* ========================================
+   RESETS Y BASES
+   ======================================== */
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Arial, sans-serif;
     background-color: #fcefd2;
-    margin: 40px;
     line-height: 1.6;
+    color: #333;
 }
 
-h1 {
+h1, h2, h3, h4, h5, h6 {
     color: #c4956a;
 }
 
@@ -24,9 +28,7 @@ p {
 
 .navbar-wrapper {
     position: relative;
-    margin-top: -40px;
-    margin-left: -40px;
-    margin-right: -40px;
+    /* Eliminamos márgenes negativos */
 }
 
 .navbar-wave {
@@ -39,40 +41,44 @@ p {
     height: 50px;
 }
 
-.navbar,
-.navbar a {
+/* Usamos selectores más específicos para evitar !important */
+.navbar.navbar-custom,
+.navbar.navbar-custom .nav-link {
     font-family: 'Playfair Display', serif;
 }
 
-.navbar {
+.navbar.navbar-custom {
     padding-left: 40px;
     padding-right: 40px;
+    background-color: #622b16;
+}
+
+.navbar.navbar-custom .navbar-brand img {
+    filter: drop-shadow(0px 2px 4px rgba(0,0,0,0.2));
+}
+
+.navbar.navbar-custom .nav-link {
     color: #f5e6d0;
 }
 
-.navbar a {
-    color: #f5e6d0 !important;
-}
-
-.nav-links a {
+.nav-links .nav-link {
     font-family: 'Lato', sans-serif;
-    margin-left: 33px;
-    margin-right: 50px;
-    font-size: large;
-    color: #c4956a !important;
+    margin-left: 20px;
+    font-size: 1.1rem;
+    color: #c4956a;
     transition: color 0.3s ease;
 }
 
-.nav-links a:hover {
-    color: #f5e6d0 !important;
+.nav-links .nav-link:hover {
+    color: #f5e6d0;
 }
 
 /* ========================================
-   SECCIONES
+   SECCIONES GENERALES
    ======================================== */
 
 .section-hero {
-    padding: 2rem 0;
+    padding: 4rem 0;
 }
 
 .section-hero-comercio {
@@ -81,16 +87,19 @@ p {
 
 .section-products {
     background-color: #622b16;
-    padding: 2rem 0;
+    padding: 4rem 0;
     width: 100%;
 }
 
-.section-products .container {
-    background-color: #622b16;
+/* Ajustamos el color de los textos en secciones oscuras */
+.section-products h1, 
+.section-products h5, 
+.section-products .card-title {
+    color: #f5e6d0;
 }
 
 /* ========================================
-   TARJETAS MÉTODOS DE PAGO
+   TARJETAS Y COMPONENTES
    ======================================== */
 
 .card-metodos-pago {
@@ -103,47 +112,8 @@ p {
 
 .card-metodos-pago:hover {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transform: translateY(-3px);
+    transform: translateY(-5px);
 }
-
-/* ========================================
-   SVG CIRCULAR
-   ======================================== */
-
-.circle-svg-container {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    background: #f0f0f0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
-    border: 3px solid #c4956a;
-}
-
-/* ========================================
-   SECCIÓN MÉTODOS DE PAGO
-   ======================================== */
-
-@media (max-width: 991px) {
-    .section-metodos-pago .row {
-        flex-direction: column;
-    }
-
-    .section-metodos-pago .col-lg-3 {
-        width: 100%;
-        margin-bottom: 2rem;
-    }
-
-    .section-metodos-pago .col-lg-9 {
-        width: 100%;
-    }
-}
-
-/* ========================================
-   CARDS Y COMPONENTES
-   ======================================== */
 
 .card-img-top {
     width: 100%;
@@ -152,25 +122,53 @@ p {
     display: block;
 }
 
-.section-products a {
+/* Botones personalizados */
+.btn-custom {
     background-color: #c4956a;
     border-color: #c4956a;
+    color: white;
     transition: all 0.3s ease;
 }
 
-.section-products a:hover {
-    color: black;
-    background-color: #c4956a;
-    border-color: #c4956a;
+.btn-custom:hover {
+    background-color: #a37a53;
+    border-color: #a37a53;
+    color: white;
 }
 
 /* ========================================
-   UTILIDADES
+   SVG CIRCULAR
    ======================================== */
 
-.container {
+.circle-svg-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem;
+    border: 3px solid #c4956a;
+}
+
+/* ========================================
+   RESPONSIVE
+   ======================================== */
+
+@media (max-width: 991px) {
+    .nav-links .nav-link {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+}
+
+/* ========================================
+   CONTENEDOR ESPECIAL (Si se requiere el estilo anterior)
+   ======================================== */
+.container-card-style {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 600px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }
