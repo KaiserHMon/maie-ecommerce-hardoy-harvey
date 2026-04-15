@@ -50,3 +50,9 @@ p {
 .nav-links a:hover {
   color: #f5e6d0 !important;
 }
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
