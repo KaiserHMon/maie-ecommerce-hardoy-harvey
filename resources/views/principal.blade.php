@@ -4,16 +4,19 @@
 
 <section class="section-hero">
 <div class="container">
-<div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-    <div class="col-10 col-sm-8 col-lg-6">
-        <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Carrusel" width="700" height="500" loading="lazy">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="\images\productos\maie-91.jpg" alt="First slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="\images\productos\maie-100.jpg" alt="Second slide">
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="\images\productos\maie-115.jpg" alt="Third slide">
+            </div>
+        </div>
     </div>
-    <div class="col-lg-6">
-        <h1 class="display-4 fw-bold text-body-emphasis lh-1 mb-3">Dulces Artesanales</h1>
-        <p class="lead">texto a decidir</p>
-    </div>
-</div>
-</div>
 </section>
 
 <section class="section-products">

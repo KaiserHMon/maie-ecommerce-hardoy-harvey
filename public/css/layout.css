@@ -86,14 +86,13 @@ p {
 
 .section-products {
     background-color: #622b16;
+    background: linear-gradient( right, #622b16, #fcefd2);
     padding: 4rem 0;
     width: 100%;
 }
 
 /* Ajustamos el color de los textos en secciones oscuras */
-.section-products h1,
-.section-products h5,
-.section-products .card-title {
+.section-products h1 {
     color: #f5e6d0;
 }
 
@@ -104,7 +103,7 @@ p {
 .card-metodos-pago {
     border: 1px solid #e0e0e0;
     border-radius: 15px;
-    background: white;
+    background: #ffffff00;
     transition: all 0.3s ease;
     height: 100%;
 }

@@ -21,8 +21,8 @@
         <div class="col">
             <div class="card text-center h-100">
                 <div class="card-body">
-                    <img src="..." alt="Logo Local 1" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
-                    <h5 class="card-title">Nombre del Local 1</h5>
+                    <img src="\images\logos_locales\full24logo.png" alt="Logo Local 1" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
+                    <h5 class="card-title">Full 24</h5>
                     <p class="card-text small">Dirección y datos del local</p>
                 </div>
             </div>
@@ -30,8 +30,8 @@
         <div class="col">
             <div class="card text-center h-100">
                 <div class="card-body">
-                    <img src="..." alt="Logo Local 2" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
-                    <h5 class="card-title">Nombre del Local 2</h5>
+                    <img src="\images\logos_locales\godilogo.png" alt="Logo Local 2" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
+                    <h5 class="card-title">Godi</h5>
                     <p class="card-text small">Dirección y datos del local</p>
                 </div>
             </div>
@@ -39,8 +39,8 @@
         <div class="col">
             <div class="card text-center h-100">
                 <div class="card-body">
-                    <img src="..." alt="Logo Local 3" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
-                    <h5 class="card-title">Nombre del Local 3</h5>
+                    <img src="\images\logos_locales\logoshell.png" alt="Logo Local 3" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
+                    <h5 class="card-title">Shell</h5>
                     <p class="card-text small">Dirección y datos del local</p>
                 </div>
             </div>
@@ -48,8 +48,8 @@
         <div class="col">
             <div class="card text-center h-100">
                 <div class="card-body">
-                    <img src="..." alt="Logo Local 4" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
-                    <h5 class="card-title">Nombre del Local 4</h5>
+                    <img src="\images\logos_locales\piacepiulogo.jpg" alt="Logo Local 4" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
+                    <h5 class="card-title">Piacepiu</h5>
                     <p class="card-text small">Dirección y datos del local</p>
                 </div>
             </div>
@@ -69,6 +69,7 @@
                 <div class="col">
                     <div class="card card-metodos-pago text-center">
                         <div class="card-body py-3">
+                            <img width="100" height="100" src="\images\svg\credit-card-multiple.svg"></img>
                             <i class="bi bi-credit-card" style="font-size: 2rem; color: #c4956a;"></i>
                             <p class="card-text small mt-2">Tarjeta</p>
                         </div>
@@ -77,6 +78,7 @@
                 <div class="col">
                     <div class="card card-metodos-pago text-center">
                         <div class="card-body py-3">
+                            <img width="100" height="100" src="\images\svg\cash-app.svg"></img>
                             <i class="bi bi-bank" style="font-size: 2rem; color: #c4956a;"></i>
                             <p class="card-text small mt-2">Transferencia</p>
                         </div>
@@ -85,6 +87,7 @@
                 <div class="col">
                     <div class="card card-metodos-pago text-center">
                         <div class="card-body py-3">
+                            <img  width="100" height="100"  src="\images\svg\cash-dollar.svg"></img>
                             <i class="bi bi-cash-coin" style="font-size: 2rem; color: #c4956a;"></i>
                             <p class="card-text small mt-2">Efectivo</p>
                         </div>
@@ -93,6 +96,7 @@
                 <div class="col">
                     <div class="card card-metodos-pago text-center">
                         <div class="card-body py-3">
+                            <img width="100" height="100" src="\images\svg\wallet-1.svg"></img>
                             <i class="bi bi-wallet2" style="font-size: 2rem; color: #c4956a;"></i>
                             <p class="card-text small mt-2">Billetera</p>
                         </div>
@@ -112,6 +116,7 @@
         <div class="col">
             <div class="text-center">
                 <div class="circle-svg-container">
+                    <img width="100" height="100"  src="\images\svg\certificate-check-svgrepo-com.svg"></img>
                     <i class="bi bi-check-circle" style="font-size: 3.5rem; color: #28a745;"></i>
                 </div>
                 <h5 class="mt-4">Certificado de Calidad</h5>
@@ -121,6 +126,7 @@
         <div class="col">
             <div class="text-center">
                 <div class="circle-svg-container">
+                    <img width="100" height="100"  src="\images\svg\warranty-svgrepo-com.svg"></img>
                     <i class="bi bi-shield-check" style="font-size: 3.5rem; color: #28a745;"></i>
                 </div>
                 <h5 class="mt-4">Garantía al Cliente</h5>
@@ -130,6 +136,7 @@
         <div class="col">
             <div class="text-center">
                 <div class="circle-svg-container">
+                    <img width="100" height="100"  src="\images\svg\nature-svgrepo-com.svg"></img>
                     <i class="bi bi-heart-fill" style="font-size: 3.5rem; color: #28a745;"></i>
                 </div>
                 <h5 class="mt-4">Ingredientes Naturales</h5>
