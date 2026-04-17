@@ -1,5 +1,5 @@
 /* ========================================
-   RESETS Y BASES
+  BASES
    ======================================== */
 * {
     margin: 0;
@@ -41,7 +41,6 @@ p {
     height: 50px;
 }
 
-/* Usamos selectores más específicos para evitar !important */
 .navbar.navbar-custom,
 .navbar.navbar-custom .nav-link {
     font-family: 'Playfair Display', serif;
@@ -92,8 +91,8 @@ p {
 }
 
 /* Ajustamos el color de los textos en secciones oscuras */
-.section-products h1, 
-.section-products h5, 
+.section-products h1,
+.section-products h5,
 .section-products .card-title {
     color: #f5e6d0;
 }
@@ -164,7 +163,7 @@ p {
 }
 
 /* ========================================
-   CONTENEDOR ESPECIAL (Si se requiere el estilo anterior)
+   CONTENEDOR ESPECIAL
    ======================================== */
 .container-card-style {
     background: white;
