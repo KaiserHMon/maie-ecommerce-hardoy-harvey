@@ -1,4 +1,35 @@
 /* ========================================
+  FUENTES
+   ======================================== */
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/BeVietnamPro-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/BeVietnamPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Be Vietnam Pro';
+    src: url('../fonts/BeVietnamPro-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Noto Serif';
+    src: url('../fonts/NotoSerif-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+/* ========================================
   BASES
    ======================================== */
 * {
@@ -8,18 +39,20 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fcefd2;
+    font-family: 'Be Vietnam Pro', Arial, sans-serif;
+    background-color: #FCF9F4;
     line-height: 1.6;
-    color: #333;
+    color: #622b16;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #c4956a;
+    font-family: 'Noto Serif', serif;
+    color: #622b16;
 }
 
 p {
     line-height: 1.6;
+    color: #555;
 }
 
 /* ========================================
@@ -43,7 +76,7 @@ p {
 
 .navbar.navbar-custom,
 .navbar.navbar-custom .nav-link {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Noto Serif', serif;
 }
 
 .navbar.navbar-custom {
@@ -57,19 +90,19 @@ p {
 }
 
 .navbar.navbar-custom .nav-link {
-    color: #f5e6d0;
+    color: #ffbf57;
 }
 
 .nav-links .nav-link {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif;
     margin-left: 20px;
     font-size: 1.1rem;
-    color: #c4956a;
+    color: #9A4600;
     transition: color 0.3s ease;
 }
 
 .nav-links .nav-link:hover {
-    color: #f5e6d0;
+    color: #FCF9F4;
 }
 
 /* ========================================
@@ -85,15 +118,14 @@ p {
 }
 
 .section-products {
-    background-color: #622b16;
-    background: linear-gradient( right, #622b16, #fcefd2);
-    padding: 4rem 0;
+    background: #F6F3EE !important;
+    padding: 6rem 0; /* Aumentado para dar espacio al degradado */
     width: 100%;
 }
 
 /* Ajustamos el color de los textos en secciones oscuras */
 .section-products h1 {
-    color: #f5e6d0;
+    color: #622b16;
 }
 
 /* ========================================
@@ -101,7 +133,7 @@ p {
    ======================================== */
 
 .card-metodos-pago {
-    border: 1px solid #e0e0e0;
+    border: none;
     border-radius: 15px;
     background: #ffffff00;
     transition: all 0.3s ease;
@@ -115,22 +147,22 @@ p {
 
 .card-img-top {
     width: 100%;
-    height: 250px;
+    height: 200px;
     object-fit: cover;
     display: block;
 }
 
 /* Botones personalizados */
 .btn-custom {
-    background-color: #c4956a;
-    border-color: #c4956a;
+    background-color: #622b16;
+    border-color: #622b16;
     color: white;
     transition: all 0.3s ease;
 }
 
 .btn-custom:hover {
-    background-color: #a37a53;
-    border-color: #a37a53;
+    background-color: #7a3800;
+    border-color: #7a3800;
     color: white;
 }
 
@@ -147,7 +179,7 @@ p {
     align-items: center;
     justify-content: center;
     margin: 0 auto 1.5rem;
-    border: 3px solid #c4956a;
+    border: 3px solid #9A4600;
 }
 
 /* ========================================
@@ -165,7 +197,7 @@ p {
    CONTENEDOR ESPECIAL
    ======================================== */
 .container-card-style {
-    background: white;
+    background: #F6F3EE;
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0,0,0,0.05);
