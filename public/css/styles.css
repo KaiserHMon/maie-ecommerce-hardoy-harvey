@@ -55,6 +55,11 @@ p {
     color: #555;
 }
 
+.text-maie {
+    color: #9A4600 !important;
+}
+
+
 /* ========================================
    NAVBAR
    ======================================== */
@@ -119,11 +124,10 @@ p {
 
 .section-products {
     background: #F6F3EE !important;
-    padding: 6rem 0; /* Aumentado para dar espacio al degradado */
+    padding: 6rem 0;
     width: 100%;
 }
 
-/* Ajustamos el color de los textos en secciones oscuras */
 .section-products h1 {
     color: #622b16;
 }
@@ -132,17 +136,11 @@ p {
    TARJETAS Y COMPONENTES
    ======================================== */
 
-.card-metodos-pago {
+.card-transparent {
     border: none;
     border-radius: 15px;
     background: #ffffff00;
-    transition: all 0.3s ease;
     height: 100%;
-}
-
-.card-metodos-pago:hover {
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-    transform: translateY(-5px);
 }
 
 .card-img-top {
@@ -191,14 +189,4 @@ p {
         margin-left: 0;
         margin-right: 15px;
     }
-}
-
-/* ========================================
-   CONTENEDOR ESPECIAL
-   ======================================== */
-.container-card-style {
-    background: #F6F3EE;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
 }

@@ -2,7 +2,7 @@
 
 @section('contenido')
 <div class="container py-5">
-    <h1 class="display-5 fw-bold mb-3 text-center">Catálogo de tentaciones</h1>
+    <h1 class="display-5 fw-bold mb-3 text-center">Catálogo de <span class="fst-italic fw-bold text-maie">Tentaciones</span></h1>
     <p class="lead text-center mb-5">Descubre nuestra exquisita selección de delicias artesanales, preparadas con amor y los mejores ingredientes.</p>
 
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-5">
