@@ -42,7 +42,7 @@
         <p>Con el tiempo, las redes sociales le dieron el impulso que necesitaba para crecer, y Maie Alfajores se fue haciendo un lugar en la Ciudad de Corrientes. Desde el primer dia, la filosofia fue simple: usar los mejores ingredientes disponibles y entregar siempre un producto lo mas rico posible. Eso no cambio.</p>
       </div>
       <div class="col-md-6">
-        <img src="/images/productos/maie-61.jpg" class="img-fluid rounded shadow" style="max-height: 750px; margin-left: 120px;" alt="Origen de Maie">
+        <img src="/images/productos/maie-61.jpg" class="img-fluid rounded shadow" style="max-height: 750px; margin-left: 8.5em;" alt="Origen de Maie">
       </div>
     </div>
   </div>
@@ -51,14 +51,85 @@
 <section>
   <div class= "container">
     <h2 class="py-5 bg-light text-center">Quienes estan detras de Maie</h2>
+    <p class= "text-center">Ellos son los responsables de que puedas disfrutar de los mejores dulces artesanales en Corrientes</p>
 
-      <h4>Cocina</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem natus reprehenderit doloremque, quae illo saepe quasi totam sapiente facere animi! Minus adipisci, autem libero blanditiis natus perspiciatis similique nisi.</p>
+    <div id="carouselExample" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
 
-      <h4>Management</h4>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maiores eveniet eos ratione deserunt ipsa voluptatum vero minima totam impedit, repellat cum possimus quaerat maxime, placeat suscipit consequuntur veritatis consequatur?</p>
+    <div class="carousel-item active">
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/images/personas_maie/elisa_imgstock.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Elisa</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/images/personas_maie/wini_imgstock.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Wini</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/images/personas_maie/anaedwin_imgstock.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Ana y Edwin</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/images/personas_maie/rosa_imgstock.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Rosa</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="d-flex justify-content-center">
+        <div class="card" style="width: 18rem;">
+          <img src="/images/personas_maie/rosana_imgstock.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title text-center">Rosana</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
   </div>
 </section>
 
-<p>Ajustar imagenes porq sino me mato en directo</p>
 @endsection
