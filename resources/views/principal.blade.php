@@ -47,16 +47,16 @@
       <img src="/images/productos/crumbl-cookies.jpg" class="card-img-top rounded-4 shadow" alt="crumbl cookie">
       <div class="card-body">
         <h5 class="card-title fw-bold">Crumbl Cookies</h5>
-        <p class="card-text">Galletas grandes y blandas con una textura crujiente en los bordes. Nuestras Crumbl cookies se preparan frescas con ingredientes premium, perfectas para compartir o disfrutar con un café o chocolate caliente.</p>
+        <p class="card-text">Galletas grandes y blandas con una textura crujiente en los bordes.</p>
       </div>
     </div>
   </div>
   <div class="col">
     <div class="card h-100 border-0 bg-transparent">
-      <img src="/images/productos/bigstock-Set-Of-Different-Multi-colored-276330859-e1581253559904.jpg" class="card-img-top rounded-4 shadow" alt="macarron">
+      <img src="/images/productos/bigstock-Set-Of-Different-Multi-colored-276330859-e1581253559904.jpg" class="card-img-top rounded-4 shadow" alt="macarrón">
       <div class="card-body">
         <h5 class="card-title fw-bold">Macarrón</h5>
-        <p class="card-text">Elegantes macarrones artesanales con sabores variados y auténticos. Estas delicadas galletas francesas tienen un exterior crujiente y un interior suave, perfectas como acompañamiento sofisticado para cualquier ocasión.</p>
+        <p class="card-text">Elegantes macarrones artesanales con sabores variados y auténticos.</p>
       </div>
     </div>
   </div>
@@ -65,7 +65,7 @@
       <img src="/images/productos/cono.jpg" class="card-img-top rounded-4 shadow" alt="cono de dulce de leche">
       <div class="card-body">
         <h5 class="card-title fw-bold">Conitos</h5>
-        <p class="card-text">Conos crujientes con rellenos irresistibles. Nuestros conitos traen deliciosos rellenos de chocolate, dulce de leche y crema pastelera. Un toque gourmet que combina la textura crujiente del barquillo con sabores inigualables.</p>
+        <p class="card-text">Conos crujientes con rellenos irresistibles. Un toque gourmet que combina la textura crujiente del barquillo con sabores inigualables.</p>
       </div>
     </div>
   </div>

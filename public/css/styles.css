@@ -95,7 +95,7 @@ p {
 }
 
 .navbar.navbar-custom .nav-link {
-    color: #ffbf57;
+    color: #be8e75;
 }
 
 .nav-links .nav-link {
@@ -135,6 +135,31 @@ p {
 /* ========================================
    TARJETAS Y COMPONENTES
    ======================================== */
+
+.card-catalogo {
+    border: 1px solid rgba(98, 43, 22, 0.1); /* Borde sutil color Maie */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden; /* Para que la imagen respete los bordes redondeados */
+}
+
+.card-catalogo:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(98, 43, 22, 0.1) !important;
+    border-color: rgba(98, 43, 22, 0.3);
+}
+
+.card-catalogo .card-title {
+    color: #622b16;
+    font-weight: 700;
+}
+
+.card-catalogo .card-img-top {
+    transition: transform 0.5s ease;
+}
+
+.card-catalogo:hover .card-img-top {
+    transform: scale(1.05); /* Zoom sutil a la imagen al pasar el mouse */
+}
 
 .card-transparent {
     border: none;

@@ -5,7 +5,7 @@
                 <a href="#" class="nav-link px-2 text-body-secondary">Contacto</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link px-2 text-body-secondary">Terminos de Uso</a>
+                <a href="/terminos-de-uso" class="nav-link px-2 text-body-secondary">Términos de Uso</a>
             </li>
         </ul>
         <p class="text-center text-body-secondary">© 2026 Maie</p>
