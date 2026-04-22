@@ -4,8 +4,8 @@
 
 <section class="section-about py-5">
 <div class="container">
-    <h1 class="fs-2 fs-md-1 fw-bold text-body-emphasis lh-1 mb-4">El detras de escena de Maie Alfajores</h1>
-    <p>Somos un emprendimiento familiar que se dedica a crear dulces artesanales con ingredientes naturales de alta calidad</p>
+    <h1 class="fs-2 fs-md-1 fw-bold lh-1 mb-4 text-center">El detras de escena de Maie Alfajores</h1>
+    <p class="text-center">Somos un emprendimiento familiar que se dedica a crear dulces artesanales con ingredientes naturales de alta calidad</p>
 </div>
 
 <div class="container"> 
@@ -37,7 +37,6 @@
   <div class="container">
     <div class="row align-items-center g-4">
       <div class="col-md-6">
-        <span class="badge bg-secondary mb-2">Agosto 2020</span>
         <h2 class="fw-bold mb-3">Como surgio Maie</h2>
         <p class="lead">Todo empezo en agosto de 2020, cuando Elisa Harvey, en plena cuarentena y buscando escapar del aburrimiento, decidio meterse a la cocina a experimentar. Lo que empezo como un pasatiempo rapidamente se convirtio en algo mas: sus primeros alfajores llegaron a manos de amigos cercanos, y el resto fue boca a boca.</p>
         <p>Con el tiempo, las redes sociales le dieron el impulso que necesitaba para crecer, y Maie Alfajores se fue haciendo un lugar en la Ciudad de Corrientes. Desde el primer dia, la filosofia fue simple: usar los mejores ingredientes disponibles y entregar siempre un producto lo mas rico posible. Eso no cambio.</p>
@@ -50,13 +49,15 @@
 </section>
 
 <section>
-  <h2 class="fs-2 fs-md-1 fw-bold text-body-emphasis lh-1 mb-4">Quienes estan detras de Maie</h2>
+  <div class= "container">
+    <h2 class="py-5 bg-light text-center">Quienes estan detras de Maie</h2>
 
-  <h4>Cocina</h4>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem natus reprehenderit doloremque, quae illo saepe quasi totam sapiente facere animi! Minus adipisci, autem libero blanditiis natus perspiciatis similique nisi.</p>
+      <h4>Cocina</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium dolorem natus reprehenderit doloremque, quae illo saepe quasi totam sapiente facere animi! Minus adipisci, autem libero blanditiis natus perspiciatis similique nisi.</p>
 
-  <h4>Management</h4>
-  <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maiores eveniet eos ratione deserunt ipsa voluptatum vero minima totam impedit, repellat cum possimus quaerat maxime, placeat suscipit consequuntur veritatis consequatur?</p>
+      <h4>Management</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda maiores eveniet eos ratione deserunt ipsa voluptatum vero minima totam impedit, repellat cum possimus quaerat maxime, placeat suscipit consequuntur veritatis consequatur?</p>
+  </div>
 </section>
 
 <p>Ajustar imagenes porq sino me mato en directo</p>
