@@ -110,6 +110,12 @@ p {
     color: #FCF9F4;
 }
 
+.navbar-toggler-icon{
+    background-image: url('/images/svg/burger-menu-svgrepo-com.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 /* ========================================
    SECCIONES GENERALES
    ======================================== */

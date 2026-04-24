@@ -14,7 +14,7 @@
           <a href="/catalogo" class="nav-link fw-bold">Catálogo</a>
           <a href="/comercializacion" class="nav-link fw-bold">Comercialización</a>
           <a href="/quienes-somos" class="nav-link fw-bold">Quiénes Somos</a>
-          <a href="/quienes-somos" class="nav-link fw-bold">Consultas</a>
+          <a href="/consultas" class="nav-link fw-bold">Consultas</a>
           <a href="/login" class="nav-link fw-bold">Iniciar Sesión</a>
           <a href="/registro" class="nav-link fw-bold">Registrarse</a>
         </div>

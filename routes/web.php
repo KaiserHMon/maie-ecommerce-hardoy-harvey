@@ -33,3 +33,11 @@ Route::get('/login', function() {
 Route::get('/registro', function() {
     return view('registro-cliente');
 });
+
+Route::get('/consultas', function() {
+    return view('consultas');
+});
+
+Route::get('/contacto', function() {
+    return view('contacto');
+});

@@ -49,14 +49,9 @@
 </section>
 
 <section>
-<<<<<<< HEAD
   <div class= "container">
     <h2 class="py-5 bg-light text-center">Quienes estan detras de Maie</h2>
     <p class= "text-center">Ellos son los responsables de que puedas disfrutar de los mejores dulces artesanales en Corrientes</p>
-=======
-  <div class="container">
-    <h2 class="py-5 bg-light text-center">Quiénes están detrás de Maie</h2>
->>>>>>> 5df3ad82f7ae782d317c100cfb2c008a6fa3f012
 
     <div id="carouselExample" class="carousel slide carousel-fade">
   <div class="carousel-inner">
