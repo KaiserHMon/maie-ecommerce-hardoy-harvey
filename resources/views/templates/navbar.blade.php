@@ -4,16 +4,19 @@
       <a class="navbar-brand" href="/">
         <img src="{{ asset('images/logo/LOGO_MAIE_navbar.png') }}" alt="Logo" width="120" height="60" class="d-inline-block">
       </a>
-      
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
         <div class="navbar-nav ms-auto nav-links">
-          <a href="/catalogo" class="nav-link">Catálogo</a>
-          <a href="/comercializacion" class="nav-link">Comercialización</a>
-          <a href="/quienes-somos" class="nav-link">Quiénes Somos</a>
+          <a href="/catalogo" class="nav-link fw-bold">Catálogo</a>
+          <a href="/comercializacion" class="nav-link fw-bold">Comercialización</a>
+          <a href="/quienes-somos" class="nav-link fw-bold">Quiénes Somos</a>
+          <a href="/quienes-somos" class="nav-link fw-bold">Consultas</a>
+          <a href="/login" class="nav-link fw-bold">Iniciar Sesión</a>
+          <a href="/registro" class="nav-link fw-bold">Registrarse</a>
         </div>
       </div>
     </div>
