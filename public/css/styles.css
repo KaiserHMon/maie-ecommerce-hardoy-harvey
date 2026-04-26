@@ -190,6 +190,70 @@ p {
 }
 
 /* ========================================
+   COMPONENTES DE AUTENTICACIÓN (MAIE)
+   ======================================== */
+
+/* Contenedor de pestañas */
+.maie-auth-nav .nav-link {
+    color: #622b16;
+    border-radius: 50px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.maie-auth-nav .nav-link.active {
+    background-color: #622b16;
+    color: #FCF9F4;
+}
+
+.maie-auth-nav .nav-link:hover:not(.active) {
+    background-color: rgba(98, 43, 22, 0.1);
+}
+
+/* Inputs de formulario */
+.maie-input {
+    border: 1px solid #be8e75;
+    border-radius: 8px;
+    padding: 0.6rem 1rem;
+    width: 100%;
+    transition: border-color 0.3s ease;
+}
+
+.maie-input:focus {
+    outline: none;
+    border-color: #9A4600;
+}
+
+/* Botones de redes sociales */
+.maie-social-btn {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid #be8e75;
+    color: #622b16;
+    background: none;
+    transition: all 0.3s ease;
+}
+
+.maie-social-btn:hover {
+    background-color: #622b16;
+    color: #FCF9F4;
+    border-color: #622b16;
+}
+
+/* Checkbox personalizado */
+.maie-checkbox {
+    accent-color: #9A4600;
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+/* ========================================
    SVG CIRCULAR
    ======================================== */
 
