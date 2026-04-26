@@ -31,7 +31,7 @@
                 <h5 class="fw-bold mb-3" style="color: #622b16;">Enlaces Útiles</h5>
                 <ul class="nav flex-column align-items-center align-items-md-start">
                     <li class="nav-item mb-2">
-                        <a href="#" class="nav-link p-0 text-body-secondary">Contacto</a>
+                        <a href="/contacto" class="nav-link p-0 text-body-secondary">Contacto</a>
                     </li>
                     <li class="nav-item mb-2">
                         <a href="/terminos-de-uso" class="nav-link p-0 text-body-secondary">Términos de Uso</a>
