@@ -195,6 +195,19 @@ p {
     color: white;
 }
 
+.dropdown-toggle::after {
+    border-top-color: #be8e75;
+}
+
+.dropdown-menu {
+    background-color: #7c3c22;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+    background-color: transparent;
+}
+
 /* ========================================
    SVG CIRCULAR
    ======================================== */

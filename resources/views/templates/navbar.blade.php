@@ -15,8 +15,17 @@
           <a href="/comercializacion" class="nav-link fw-bold">Comercialización</a>
           <a href="/quienes-somos" class="nav-link fw-bold">Quiénes Somos</a>
           <a href="/consultas" class="nav-link fw-bold">Consultas</a>
-          <a href="/login" class="nav-link fw-bold">Iniciar Sesión</a>
-          <a href="/registro" class="nav-link fw-bold">Registrarse</a>
+
+         <div class="dropdown">
+            <button class="btn bg-transparent-border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="{{ asset('images/svg/login-svgrepo-com.svg') }}" alt="Menu" width="30" height="30">
+          </button>
+          <ul class="dropdown-menu dropdown-menu-end">
+            <li><a class="dropdown-item nav-link fw-bold px-0" href="/login">Iniciar Sesión</a></li>
+            <li><a class="dropdown-item nav-link fw-bold px-0" href="/registro">Registrarse</a></li>
+          </ul>
+        </div> 
+
         </div>
       </div>
     </div>
