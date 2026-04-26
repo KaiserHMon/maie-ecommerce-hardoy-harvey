@@ -2,47 +2,118 @@
 
 @section('contenido')
 
-<section class="vh-100">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-6 text-black">
+<section class="py-5" style="background-color: #FCF9F4; min-height: 80vh;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
 
-        <div class="px-5 ms-xl-4">
-          <i class="fas fa-crow fa-2x me-3 pt-5 mt-xl-4" style="color: #709085;"></i>
-          <span class="h1 fw-bold mb-0">Logo</span>
+        <div class="card shadow-sm" style="border-radius: 15px; border: 1px solid rgba(98, 43, 22, 0.1); background-color: #fff;">
+          <div class="card-body p-4 p-md-5">
+
+            <!-- Logo centrado -->
+            <div class="text-center mb-4">
+              <img src="{{ asset('images/logo/LOGO_MAIE_navbar.png') }}" alt="Maie Logo" style="height: 60px;">
+            </div>
+
+            <!-- Pills navs -->
+            <ul class="nav nav-pills maie-auth-nav nav-justified mb-4" id="authTabs" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="tab-login" data-bs-toggle="pill" data-bs-target="#pills-login" type="button" role="tab"
+                  aria-controls="pills-login" aria-selected="true">Iniciar Sesión</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tab-register" data-bs-toggle="pill" data-bs-target="#pills-register" type="button" role="tab"
+                  aria-controls="pills-register" aria-selected="false">Registrarse</button>
+              </li>
+            </ul>
+            <!-- Pills navs -->
+
+            <!-- Pills content -->
+            <div class="tab-content">
+
+              <!-- Pestaña Login -->
+              <div class="tab-pane fade show active" id="pills-login" role="tabpanel" aria-labelledby="tab-login">
+                <form action="javascript:void(0);">
+
+                  <!-- Email input -->
+                  <div class="mb-4">
+                    <label class="form-label text-maie fw-medium" for="loginName">Correo electronico</label>
+                    <input type="text" id="loginName" class="maie-input" />
+                  </div>
+
+                  <!-- Password input -->
+                  <div class="mb-4">
+                    <label class="form-label text-maie fw-medium" for="loginPassword">Contraseña</label>
+                    <input type="password" id="loginPassword" class="maie-input" />
+                  </div>
+
+                  <!-- 2 column grid layout -->
+                  <div class="row mb-4">
+                    <div class="col-md-6 d-flex justify-content-start mb-3 mb-md-0">
+                      <!-- Checkbox -->
+                      <div class="d-flex align-items-center">
+                        <input class="maie-checkbox" type="checkbox" id="loginCheck" />
+                        <label class="ms-2 text-muted" for="loginCheck" style="cursor: pointer;"> Recordarme </label>
+                      </div>
+                    </div>
+
+                  </div>
+
+                  <!-- Submit button -->
+                  <div class="text-center">
+                    <button type="submit" class="btn-custom w-100 border-0 rounded py-2">Ingresar</button>
+                  </div>
+
+                </form>
+              </div>
+
+              <!-- Pestaña Registro -->
+              <div class="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">
+                <form action="javascript:void(0);">
+
+                  <!-- Name input -->
+                  <div class="mb-4">
+                    <label class="form-label text-maie fw-medium" for="registerName">Nombre completo</label>
+                    <input type="text" id="registerName" class="maie-input" />
+                  </div>
+
+                  <!-- Email input -->
+                  <div class="mb-4">
+                    <label class="form-label text-maie fw-medium" for="registerEmail">Correo electrónico</label>
+                    <input type="email" id="registerEmail" class="maie-input" />
+                  </div>
+
+                  <!-- Password input -->
+                  <div class="mb-4">
+                    <label class="form-label text-maie fw-medium" for="registerPassword">Contraseña</label>
+                    <input type="password" id="registerPassword" class="maie-input" />
+                  </div>
+
+                  <!-- Repeat Password input -->
+                  <div class="mb-4">
+                    <label class="form-label text-maie fw-medium" for="registerRepeatPassword">Repetir contraseña</label>
+                    <input type="password" id="registerRepeatPassword" class="maie-input" />
+                  </div>
+
+                  <!-- Checkbox -->
+                  <div class="d-flex justify-content-start align-items-center mb-4">
+                    <input class="maie-checkbox" type="checkbox" id="registerCheck" />
+                    <label class="ms-2 text-muted" for="registerCheck" style="cursor: pointer;">
+                      He leído y acepto los <a href="{{ url('/terminos-de-uso') }}" class="text-maie fw-medium">Términos de servicio</a>
+                    </label>
+                  </div>
+
+                  <div class="text-center">
+                    <button type="submit" class="btn-custom w-100 border-0 rounded py-2">Registrarse</button>
+                  </div>
+                </form>
+              </div>
+
+            </div>
+
+          </div>
         </div>
 
-        <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-
-          <form style="width: 23rem;">
-
-            <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
-
-            <div data-mdb-input-init class="form-outline mb-4">
-              <input type="email" id="form2Example18" class="form-control form-control-lg" />
-              <label class="form-label" for="form2Example18">Email address</label>
-            </div>
-
-            <div data-mdb-input-init class="form-outline mb-4">
-              <input type="password" id="form2Example28" class="form-control form-control-lg" />
-              <label class="form-label" for="form2Example28">Password</label>
-            </div>
-
-            <div class="pt-1 mb-4">
-              <button data-mdb-button-init data-mdb-ripple-init class="btn btn-info btn-lg btn-block" type="button">Login</button>
-            </div>
-
-            <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
-            <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
-
-          </form>
-
-        </div>
-
-      </div>
-      <div class="col-sm-6 px-0 d-none d-sm-block">
-        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp"
-          alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
       </div>
     </div>
   </div>
