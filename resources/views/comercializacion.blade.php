@@ -23,7 +23,7 @@
                 <div class="card-body">
                     <img src="\images\logos_locales\full24logo.png" alt="Logo Local 1" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
                     <h5 class="card-title">Full 24</h5>
-                    <p class="card-text small">Dirección y datos del local</p>
+                    <p class="card-text small">Junin 889</p>
                 </div>
             </div>
         </div>
@@ -32,7 +32,7 @@
                 <div class="card-body">
                     <img src="\images\logos_locales\godilogo.png" alt="Logo Local 2" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
                     <h5 class="card-title">Godi</h5>
-                    <p class="card-text small">Dirección y datos del local</p>
+                    <p class="card-text small">9 de Julio 1247</p>
                 </div>
             </div>
         </div>
@@ -41,7 +41,7 @@
                 <div class="card-body">
                     <img src="\images\logos_locales\logoshell.png" alt="Logo Local 3" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
                     <h5 class="card-title">Shell</h5>
-                    <p class="card-text small">Dirección y datos del local</p>
+                    <p class="card-text small">Av. 3 de Abril 402</p>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@
                 <div class="card-body">
                     <img src="\images\logos_locales\piacepiulogo.jpg" alt="Logo Local 4" style="height: 80px; object-fit: contain; margin-bottom: 15px;">
                     <h5 class="card-title">Piacepiu</h5>
-                    <p class="card-text small">Dirección y datos del local</p>
+                    <p class="card-text small">Catamarca 1402</p>
                 </div>
             </div>
         </div>

@@ -26,13 +26,10 @@ Route::get('/quienes-somos', function() {
     return view('quienes-somos');
 });
 
-Route::get('/login', function() {
-    return view('login');
+Route::get('/login-register', function() {
+    return view('login-register');
 });
 
-Route::get('/registro', function() {
-    return view('registro-cliente');
-});
 
 Route::get('/consultas', function() {
     return view('consultas');
