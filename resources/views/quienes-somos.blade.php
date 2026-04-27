@@ -5,7 +5,7 @@
 <section class="section-about py-5">
 <div class="container">
     <h1 class="fs-2 fs-md-1 fw-bold lh-1 mb-4 text-center">El detrás de escena de Maie Alfajores</h1>
-    <p class="text-center">Somos un emprendimiento familiar que se dedica a crear dulces artesanales con ingredientes naturales de alta calidad</p>
+    <p class="text-center lead">Somos un emprendimiento familiar que se dedica a crear dulces artesanales con ingredientes naturales de alta calidad</p>
 </div>
 
 <div class="container">
@@ -39,7 +39,7 @@
       <div class="col-md-6">
         <h2 class="fw-bold mb-3">Cómo surgió Maie</h2>
         <p class="lead">Todo empezó en agosto de 2020, cuando Elisa Harvey, en plena cuarentena y buscando escapar del aburrimiento, decidió meterse a la cocina a experimentar. Lo que empezó como un pasatiempo rápidamente se convirtió en algo más: sus primeros alfajores llegaron a manos de amigos cercanos, y el resto fue boca a boca.</p>
-        <p>Con el tiempo, las redes sociales le dieron el impulso que necesitaba para crecer, y Maie Alfajores se fue haciendo un lugar en la Ciudad de Corrientes. Desde el primer dia, la filosofia fue simple: usar los mejores ingredientes disponibles y entregar siempre un producto lo mas rico posible. Eso no cambio.</p>
+        <p class="lead">Con el tiempo, las redes sociales le dieron el impulso que necesitaba para crecer, y Maie Alfajores se fue haciendo un lugar en la Ciudad de Corrientes. Desde el primer dia, la filosofia fue simple: usar los mejores ingredientes disponibles y entregar siempre un producto lo mas rico posible. Eso no cambio.</p>
       </div>
       <div class="col-md-6">
         <img src="/images/productos/maie-61.jpg" class="ms-auto d-block img-fluid rounded shadow" style="max-height: 750px;" alt="Origen de Maie">
@@ -50,41 +50,46 @@
 
 <section class="py-5" style="background-color: #FCF9F4;">
   <div class="container text-center">
-    <h2 class="mb-5">Quienes estan detras de Maie</h2>
-    <p class= "mb-5 text-center">Ellos son los responsables de que puedas disfrutar de los mejores dulces artesanales en Corrientes</p>
+    <h2 class="mb-5 fw-bold">Quienes estan detras de Maie</h2>
+    <p class= "mb-5 text-center lead">Ellos son los responsables de que puedas disfrutar de los mejores dulces artesanales en Corrientes</p>
 
-      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleSlidesOnly" class="carousel slide shadow-lg rounded" data-bs-ride="carousel">
         <div class="carousel-inner">
+
           <div class="carousel-item active">
-            <img class="d-block w-100" src="/images/personas_maie/elisa_ia_imgstock.png" alt="Elisa">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-white">Elisa</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet.</p>
+            <img src="/images/personas_maie/elisa_ia_imgstock.png" class="d-block w-100 img-fluid rounded" alt="Elisa">
+            <div class="carousel-caption d-none d-md-block" style="background: linear-gradient(transparent, rgba(0,0,0,0.6)); bottom: 0; left: 0; right: 0; padding: 20px;">
+              <h5 class="text-white fw-bold" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Elisa</h5>
+              <p class="text-white" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Es la community manager de la familia, se encarga de la publicidad en las redes sociales</p>
             </div>
           </div>
+
           <div class="carousel-item">
-            <img class="d-block w-100" src="/images/personas_maie/wini_imgstock.png" alt="Wini">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-white">Wini</h5>
-              <p class="text-white"> Lorem ipsum dolor sit amet.</p>
+            <img src="/images/personas_maie/wini_imgstock.png" class="d-block w-100 img-fluid rounded" alt="Wini">
+            <div class="carousel-caption d-none d-md-block" style="background: linear-gradient(transparent, rgba(0,0,0,0.6)); bottom: 0; left: 0; right: 0; padding: 20px;">
+              <h5 class="text-white fw-bold" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Wini</h5>
+              <p class="text-white" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Se encarga de coordinar con nuestros diversos puntos de venta la entrega de nuestros productos</p>
             </div>
           </div>
+
           <div class="carousel-item">
-            <img class="d-block w-100" src="/images/personas_maie/anaedwin_ia_imgstock.png" alt="Ana y Edwin">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-white">Ana y Edwin</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet.</p>
+            <img src="/images/personas_maie/anaedwin_ia_imgstock.png" class="d-block w-100 img-fluid rounded" alt="Ana y Edwin">
+            <div class="carousel-caption d-none d-md-block" style="background: linear-gradient(transparent, rgba(0,0,0,0.6)); bottom: 0; left: 0; right: 0; padding: 20px;">
+              <h5 class="text-white fw-bold" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Ana y Edwin</h5>
+              <p class="text-white" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Se encargan de preparar las cajas para la entrega a puntos de venta y particulares, ademas de procurar los ingredientes necesarios para la elaboración de nuestros productos</p>
             </div>
           </div>
+
           <div class="carousel-item">
-            <img class="d-block w-100" src="/images/personas_maie/rosa_rosana_imgstock.png" alt="Rosana y Rosa">
-            <div class="carousel-caption d-none d-md-block">
-              <h5 class="text-white">Rosana y Rosa</h5>
-              <p class="text-white">Lorem ipsum dolor sit amet.</p>
+            <img src="/images/personas_maie/rosa_rosana_imgstock.png" class="d-block w-100 img-fluid rounded" alt="Rosana y Rosa">
+            <div class="carousel-caption d-none d-md-block" style="background: linear-gradient(transparent, rgba(0,0,0,0.6)); bottom: 0; left: 0; right: 0; padding: 20px;">
+              <h5 class="text-white fw-bold" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Rosana y Rosa</h5>
+              <p class="text-white" style="text-shadow: 1px 1px 4px rgba(0,0,0,0.8);">Se encargan de elaborar nuestros productos. Gracias a su esfuerzo es que toda la comunidad de Maie puede disfrutar de nuestros productos con la mejor calidad posible</p>
             </div>
           </div>
         </div>
       </div>
   </div>
 </section>
+
 @endsection

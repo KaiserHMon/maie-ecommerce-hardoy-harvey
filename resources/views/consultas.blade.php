@@ -3,11 +3,11 @@
 @section('contenido')
 
 <div class="container pb-2">
-    <h1 class="text-center fw-bold">Consultas</h1>
+    <h1 class="text-center fw-bold mt-5">Consultas</h1>
     <p class="text-center">¿Tenes alguna duda sobre nuestros productos? ¡Escribinos!</p>
-<div class="card mt-4">
+    <p class="text-center mt-2">Nos pondremos en contacto lo antes posible</p>
+<div class="card mt-4 shadow-lg rounded">
     <div class="card-body">
-        <h2>Formulario de contacto</h2>
          <form> 
             <div class="mb-3"> 
                 <label class="form-label">Nombre</label>
@@ -21,7 +21,7 @@
             
             <div class="mb-3"> 
                 <label class="form-label">Mensaje</label> 
-                <textarea class="form-control" rows="3"></textarea> 
+                <textarea class="form-control" rows="3" placeholder="Escriba su consulta aqui"></textarea> 
             </div>        
             <button type="submit" class="btn btn-custom">
                 Enviar mensaje
