@@ -116,13 +116,12 @@ p {
     background-repeat: no-repeat;
 }
 
-.navbar-toggler:focus {
-    box-shadow: none !important;
-    outline: none !important;
+.nav-links a[href="/login-register"] img {
+    transition: filter 0.3s ease;
 }
 
-.navbar-toggler {
-    border: none !important;
+.nav-links a[href="/login-register"]:hover img {
+    filter: brightness(0) invert(1);
 }
 
 /* ========================================
@@ -310,5 +309,9 @@ p {
     .nav-links .nav-link {
         margin-left: 0;
         margin-right: 15px;
+    }
+
+    .navbar-wave {
+        display: none;
     }
 }

@@ -16,22 +16,9 @@
           <a href="/quienes-somos" class="nav-link fw-bold">Quiénes Somos</a>
           <a href="/consultas" class="nav-link fw-bold">Consultas</a>
 
-<<<<<<< Updated upstream
           <a href="/login-register" class="nav-link">
             <img src="{{ asset('images/svg/login-svgrepo-com.svg') }}" alt="Iniciar Sesión" width="30" height="30">
           </a>
-=======
-         <div class="dropdown">
-            <button class="btn bg-transparent-border-0 dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="{{ asset('images/svg/login-svgrepo-com.svg') }}" alt="Menu" width="30" height="30">
-          </button>
-          <ul class="dropdown-menu dropdown-menu-end">
-            <li><a class="dropdown-item fw-bold text-center" href="/login">Iniciar Sesión</a></li>
-            <li><a class="dropdown-item fw-bold text-center" href="/registro">Registrarse</a></li>
-          </ul>
-        </div> 
-
->>>>>>> Stashed changes
         </div>
       </div>
     </div>
