@@ -111,9 +111,18 @@ p {
 }
 
 .navbar-toggler-icon{
-    background-image: url('/images/svg/burger-menu-svgrepo-com.svg');
+    background-image: url('/images/svg/menu-burger-horizontal-svgrepo-com.svg');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.navbar-toggler {
+    border: none !important;
 }
 
 /* ========================================
@@ -203,9 +212,14 @@ p {
     background-color: #7c3c22;
 }
 
+.dropdown-item {
+    color: #ddaa8f;
+}
+
 .dropdown-item:hover,
 .dropdown-item:focus {
     background-color: transparent;
+    color: #ffffff;
 }
 
 /* ========================================
