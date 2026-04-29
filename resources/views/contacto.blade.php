@@ -7,34 +7,35 @@
     <p class="text-center mt-5">Si deseas trabajar con nosotros o sos proveedor, completá el formulario y nos pondremos en contacto a la brevedad</p>
 <div class="card mt-4 shadow-lg rounded">
     <div class="card-body">
-         <form> 
-            <div class="mb-3"> 
+         <form action="{{ url('/contacto') }}" method="POST">
+            @csrf
+            <div class="mb-3">
                 <label class="form-label">Nombre</label>
-                <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                <input type="text" name="nombre" class="form-control" placeholder="Ingrese su nombre">
             </div>
 
-            <div class="mb-3"> 
+            <div class="mb-3">
                 <label class="form-label">Motivo</label>
-                <input type="text" class="form-control" placeholder="Ingrese el motivo">
+                <input type="text" name="motivo" class="form-control" placeholder="Ingrese el motivo">
             </div>
 
-            <div class="mb-3"> 
-                <label class="form-label">Numero de telefono</label> 
-                <input type="number" class="form-control" placeholder="Ingrese su numero de telefono">
+            <div class="mb-3">
+                <label class="form-label">Numero de telefono</label>
+                <input type="number" name="telefono" class="form-control" placeholder="Ingrese su numero de telefono">
             </div>
 
-            <div class="mb-3"> 
+            <div class="mb-3">
                 <label class="form-label">Correo Electronico</label>
-                <input type="email" class="form-control" placeholder="Ingrese su correo electronico">
+                <input type="email" name="email" class="form-control" placeholder="Ingrese su correo electronico">
             </div>
-            
-            <div class="mb-3"> 
-                <label class="form-label">Mensaje - (NO OBLIGATORIO)</label> 
-                <textarea class="form-control" rows="3" placeholder="Si desea aportar datos extra, escribalos aqui"></textarea> 
-            </div>        
+
+            <div class="mb-3">
+                <label class="form-label">Mensaje - (NO OBLIGATORIO)</label>
+                <textarea name="mensaje" class="form-control" rows="3" placeholder="Si desea aportar datos extra, escribalos aqui"></textarea>
+            </div>
             <button type="submit" class="btn btn-custom">
                 Enviar mensaje
-             </button> 
+             </button>
          </form>    
     </div>
 </div>

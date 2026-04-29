@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactoController;
 
 Route::get('/', function () {
     return view('principal');
@@ -13,6 +14,8 @@ Route::get('/terminos-de-uso', function () {
 Route::get('/contacto', function () {
     return view('contacto');
 });
+
+Route::post('/contacto', [ContactoController::class, 'procesar']);
 
 Route::get('/comercializacion', function () {
     return view('comercializacion');
@@ -33,8 +36,4 @@ Route::get('/login-register', function() {
 
 Route::get('/consultas', function() {
     return view('consultas');
-});
-
-Route::get('/contacto', function() {
-    return view('contacto');
 });
