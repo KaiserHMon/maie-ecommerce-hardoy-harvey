@@ -20,11 +20,6 @@
             </div>
 
             <div class="mb-3">
-                <label class="form-label">Numero de telefono</label>
-                <input type="number" name="telefono" class="form-control" placeholder="Ingrese su numero de telefono">
-            </div>
-
-            <div class="mb-3">
                 <label class="form-label">Correo Electronico</label>
                 <input type="email" name="email" class="form-control" placeholder="Ingrese su correo electronico">
             </div>
@@ -36,9 +31,9 @@
             <button type="submit" class="btn btn-custom">
                 Enviar mensaje
              </button>
-         </form>    
+         </form>
     </div>
 </div>
-</div> 
+</div>
 
 @endsection
