@@ -57,21 +57,31 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-## PARA EJECUTAR EL PROYECTO
+## Instalación y ejecución del proyecto
 
-PARA PODER CLONAR Y ABRIR EL SIGUIENTE REPOSITORIO EN LARAVEL HERD, HAY QUE ESCRIBIR LOS SIGUIENTES COMANDOS EN GIT BASH Y EN TERMINAL
+Para clonar y ejecutar el proyecto en Laravel Herd, seguí estos pasos:
 
-PASO 1: CLONAMOS EL REPOSITORIO POR MEDIO DE GIT BASH
+**Paso 1 — Clonar el repositorio**
+```bash
 git clone https://github.com/KaiserHMon/maie-ecommerce-hardoy-harvey
+```
 
-PASO 2: EN UNA TERMINAL/CMD, EJECUTAMOS EL SIGUIENTE COMANDO
+**Paso 2 — Instalar dependencias**
+```bash
 composer install
+```
 
-PASO 3: EJECUTAMOS EN LA MISMA TERMINAL ESTE COMANDO
+**Paso 3 — Crear el archivo de entorno**
+```bash
 cp .env.example .env
+```
 
-PASO 4: EJECUTAMOS ESTE COMANDO EN UNA TERMINAL
+**Paso 4 — Generar la clave de la aplicación**
+```bash
 php artisan key:generate
+```
 
-PASO 5: POR ULTIMO, EJECUTAMOS ESTE COMANDO EN UNA TERMINAL
+**Paso 5 — Ejecutar migraciones y seeders**
+```bash
 php artisan migrate --seed
+```
