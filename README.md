@@ -76,6 +76,11 @@ composer install
 cp .env.example .env
 ```
 
+**Paso 3.1 — Crear el archivo de entorno - SI EL COMANDO ANTERIOR NO FUNCIONA**
+```bash
+copy .env.example .env
+```
+
 **Paso 4 — Generar la clave de la aplicación**
 ```bash
 php artisan key:generate
