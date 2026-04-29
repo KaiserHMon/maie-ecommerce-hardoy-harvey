@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactoController;
+use App\Http\Controllers\ConsultaController;
 
 Route::get('/', function () {
     return view('principal');
@@ -37,3 +38,5 @@ Route::get('/login-register', function() {
 Route::get('/consultas', function() {
     return view('consultas');
 });
+
+Route::post('/consultas', [ConsultaController::class, 'procesar']);
